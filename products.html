@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Petshop</title>
+    <link rel="stylesheet" href="./styles/products.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  </head>
+  <!-- Pagina onde o cliente pode ver e filtrar todos os produtos -->
+  <header>
+    <!-- Cabeçalho do site -->
+    <div class="header">
+      <div class="logo">
+        <a href="index.html"
+          ><img src="./Imgs/logo.png" alt="" id="logoImg"
+        /></a>
+      </div>
+      <div class="headerBtnDiv">
+        <a href="./loginRegister.html"
+          ><button class="headerBtn">LOGIN/CADASTRE-SE</button></a
+        >
+        <a href="./products.html"
+          ><button class="headerBtn">PRODUTOS</button></a
+        >
+        <a href="./bath.html"
+          ><button class="headerBtn">BANHO E TOSA</button></a
+        >
+      </div>
+    </div>
+  </header>
+  <body>
+    <div class="container">
+      <!-- local onde se filtra pelos produtos desejados -->
+      <div class="sideFilter">
+        <div class="sideContent">
+          <p>Filtrar Produtos</p>
+          <p>Tipo da Ração:</p>
+          <div>
+            <label for="seca">Seca</label>
+            <input name="seca" type="checkbox">
+          </div>
+          <div>
+            <label for="umida">Úmida</label>
+            <input name="umida" type="checkbox">
+          </div>
+          <br>
+          <p>Animal:</p>
+          <div>
+          <label for="gato">Gato</label>
+          <input name="gato" type="checkbox">
+          </div>
+          <div>
+          <label for="cao">Cão</label>
+          <input name="cao" type="checkbox">
+          </div>
+          <br>
+          <button class="filterBtn">FILTRAR</button>
+        </div>
+      </div>
+      <!-- Todos os produtos oferecidos pelo petshop -->
+      <div class="products">
+        <div class="itens">
+          <img src="./Imgs/racao.png" class="itensImg" alt="" />
+          <p>Ração Seca Cães</p>
+          <p>R$ XX,XX</p>
+        </div>
+        <div class="itens">
+          <img src="./Imgs/racao1.png" class="itensImg" alt="" />
+          <p>Ração Úmida Cães</p>
+          <p>R$ XX,XX</p>
+        </div>
+        <div class="itens">
+          <img src="./Imgs/racao2.png" class="itensImg" alt="" />
+          <p>Ração Seca Gatos</p>
+          <p>R$ XX,XX</p>
+        </div>
+      </div>
+    </div>
+  </body>
+  <footer>
+    <!-- rodapé do site -->
+    <div class="footer">
+      <div class="footerInfo">
+        <p>Endereço: Rua:xxxxxx, 111, Bairro: xxxxx</p>
+        <p>Telefone: (xx) xxxxx-xxxx</p>
+        <p>Celular: (xx) xxxxx-xxxx</p>
+        <p>Email: petshop@email.com</p>
+      </div>
+    </div>
+  </footer>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Petshop</title>
+  <link rel="stylesheet" href="./styles/loginRegister.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+<!-- pagina onde o cliente poderá se registrar ou fazer login caso já tenha um cadastro -->
+</head>
+<header>
+  <!-- Cabeçalho do site -->
+  <div class="header">
+    <div class="logo">
+      <a href="index.html"><img src="./Imgs/logo.png" alt="" id="logoImg"></a>
+    </div>
+    <div class="headerBtnDiv">
+      <a  href="./loginRegister.html"><button class="headerBtn">LOGIN/CADASTRE-SE</button></a>
+      <a  href="./products.html"><button class="headerBtn">PRODUTOS</button></a>
+      <a  href="./bath.html"><button class="headerBtn">BANHO E TOSA</button></a>
+    </div>
+  </div>
+</header>
+<body>
+  <div class="container">
+  <!-- form de login -->
+    <div class="login">
+        <form class="formL" action="">
+          <p class="title">LOGIN</p>
+          <div>
+            <label for="loginMail">Email:</label>
+            <input name="loginMail" type="email">
+          </div>
+          <div>
+            <label for="loginPassword">Senha:</label>
+            <input name="loginPassword" type="password">
+          </div>
+          <input name="btnSubmit" class="btnSubmit" type="submit" value="LOGAR">
+        </form>
+    </div>
+    <!-- form para se registrar -->
+    <div class="register">
+        <form class="formR" action="">
+          <p class="title" >REGISTRE-SE</p>
+          <div>
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome">
+          </div>
+          <div>
+            <label for="endereco">Endereço:</label>
+            <input type="text" name="endereco">
+          </div>
+          <div>
+            <label for="tel">Telefone:</label>
+            <input type="number" name="tel">
+          </div>
+          <div>
+            <label for="cpf">CPF:</label>
+            <input type="text" name="cpf">
+          </div>
+          <div>
+            <label for="regiMail">Email:</label>
+            <input name="regiMail" type="email">
+          </div>
+          <div>
+            <label for="regiPassword">Senha:</label>
+            <input name="reigPassword" type="password">
+          </div>
+          <input name="btnSubmit" class="btnSubmit" type="submit" value="CADASTRAR">
+        </form>
+    </div>
+  </div>
+</body>
+<footer>
+  <!-- rodapé do site -->
+  <div class="footer">
+    <div class="footerInfo">
+      <p>Endereço: Rua:xxxxxx, 111, Bairro: xxxxx</p>
+      <p>Telefone: (xx) xxxxx-xxxx</p>
+      <p>Celular: (xx) xxxxx-xxxx </p>
+      <p>Email: petshop@email.com</p>
+    </div>
+  </div>
+</footer>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+</html>
